@@ -2,7 +2,7 @@
 
 ## To run:
 
-1. ```git clone https://github.com/Shizhuo-Zhu/CS-35L-Fall-2022.git```
+1. ```git clone https://github.com/roho1445/RACER-Fitness-App.git```
 2. ```cd CS-35L-Fall-2022```
 3. ```npm install```
 4. ```npm start```
