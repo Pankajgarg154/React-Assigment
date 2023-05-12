@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -21,7 +21,7 @@ export default function Navbar() {
       if (user) {
         setUser(user);
       }
-    })
+    });
   }, [user]);
 
   if (user) {
@@ -39,10 +39,10 @@ export default function Navbar() {
             <MuiDrawer />
             {/* </IconButton> */}
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              Racer Fitness
+              GymGennie
             </Typography>
-            <Avatar src={user.photoURL} ></Avatar>
-              &nbsp;&nbsp;&nbsp;&nbsp;
+            <Avatar src={user.photoURL}></Avatar>
+            &nbsp;&nbsp;&nbsp;&nbsp;
             <Button
               variant="outlined"
               color="inherit"
@@ -72,7 +72,7 @@ export default function Navbar() {
           > */}
             {/* </IconButton> */}
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              Racer Fitness
+              GymGennie
             </Typography>
 
             <Button

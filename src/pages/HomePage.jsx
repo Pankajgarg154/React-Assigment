@@ -20,21 +20,26 @@ const HomePage = () => {
           alignItems: "center",
         }}
       >
-            <Box
-      sx={{
-        width: 700,
-        height: 150,
-        backgroundColor: 'black',
-        opacity: 0.95,
-        display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-      }}
-    >
-        <Typography variant="h1" component="div" fontWeight={"bold"} color={"white"}>
-          RACER Fitness
-        </Typography>
-       </Box>
+        <Box
+          sx={{
+            width: 700,
+            height: 150,
+            backgroundColor: "black",
+            opacity: 0.95,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Typography
+            variant="h1"
+            component="div"
+            fontWeight={"bold"}
+            color={"white"}
+          >
+            GYMGENNIE
+          </Typography>
+        </Box>
       </Box>
       <CssBaseline />
     </div>
