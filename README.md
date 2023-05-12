@@ -2,10 +2,9 @@
 
 ## To run:
 
-1. ```git clone https://github.com/roho1445/RACER-Fitness-App.git```
-2. ```cd CS-35L-Fall-2022```
-3. ```npm install```
-4. ```npm start```
+1. ```git clone https://github.com/Pankaj154/React-Assigment2```
+2. ```npm install```
+3. ```npm start```
 
 ### About:
 
